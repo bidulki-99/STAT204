@@ -1,5 +1,3 @@
-2021320322 µ¥ÀÌÅÍ°úÇÐ°ú À±¹Î¼­
-
 #1
 n <- scan()
 fib <- c(2, 2)
@@ -48,8 +46,8 @@ logsal
 plot(sal)
 plot(logsal)
 
--	¼ö¿­ salÀº Áö¼öÇÔ¼ö ¸ð¾çÀ¸·Î Áõ°¡ÇÏ´Â ÆÐÅÏÀ» º¸ÀÎ´Ù.
--	·Î±×º¯È¯µÈ ¼ö¿­ logsalÀº 0~30% ±¸°£¿¡¼­´Â °ÅÀÇ ÀÏÁ¤ÇÏ´Ù°¡ 30% ±¸°£ ÀÌÈÄ·Î ±â¿ï±â°¡ ¾ç¼öÀÎ ¼±Çü ÇÔ¼öÀÇ ÆÐÅÏÀ» º¸ÀÎ´Ù.
+-	ìˆ˜ì—´ salì€ ì§€ìˆ˜í•¨ìˆ˜ ëª¨ì–‘ìœ¼ë¡œ ì¦ê°€í•˜ëŠ” íŒ¨í„´ì„ ë³´ì¸ë‹¤.
+-	ë¡œê·¸ë³€í™˜ëœ ìˆ˜ì—´ logsalì€ 0~30% êµ¬ê°„ì—ì„œëŠ” ê±°ì˜ ì¼ì •í•˜ë‹¤ê°€ 30% êµ¬ê°„ ì´í›„ë¡œ ê¸°ìš¸ê¸°ê°€ ì–‘ìˆ˜ì¸ ì„ í˜• í•¨ìˆ˜ì˜ íŒ¨í„´ì„ ë³´ì¸ë‹¤.
 
 #5
 midsal <- tapply(Salaries.1$salary, Salaries.1$teamID, median)
